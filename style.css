@@ -1,0 +1,223 @@
+.gallery img{
+    width: 100%;
+}
+
+/* General reset and styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #121212;
+  color: #ffffff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 20px;
+}
+
+/* Navigation */
+#Menu {
+  background-color: #1f1f1f;
+  padding: 15px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#Menu a {
+  color: #e62429;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+#Menu a:hover {
+  text-decoration: underline;
+}
+
+/* Headings */
+h2 {
+  font-size: 32px;
+  color: #e62429;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+h4 {
+  font-size: 22px;
+  color: #e62429;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+/* Gallery Image */
+.gallery {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.gallery img {
+  width: 400px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(230, 36, 41, 0.5);
+}
+
+/* Paragraphs */
+p {
+  margin-bottom: 10px;
+  font-size: 16px;
+  text-align: center;
+}
+
+/* Power Stats */
+.stat {
+  margin: 15px 0;
+}
+
+.bar {
+  background-color: #333;
+  border-radius: 20px;
+  overflow: hidden;
+  height: 25px;
+  margin-top: 5px;
+}
+
+.fill {
+  height: 100%;
+  background-color: cornflowerblue;
+  color: #fff;
+  text-align: right;
+  padding-right: 10px;
+  line-height: 25px;
+  border-radius: 20px;
+  transition: width 1s ease-in-out;
+}
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2rem;
+  
+  }
+  h1, h2, h4 {
+    color: cornflowerblue;
+    text-align: center;
+  }
+  p {
+    line-height: 1.0;
+  }
+/* Reset some default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #121212;
+  color: #ffffff;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* Navigation Menu */
+#Menu {
+  background-color: #1f1f1f;
+  padding: 15px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#Menu a {
+  color: #e62429;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+#Menu a:hover {
+  text-decoration: underline;
+}
+
+/* Container */
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+  background-color: #1e1e1e;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(230, 36, 41, 0.5);
+}
+
+/* Headings */
+h1, h2 {
+  color: #e62429;
+  margin-bottom: 15px;
+}
+
+h1 {
+  font-size: 36px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 24px;
+  margin-top: 30px;
+}
+
+/* Paragraphs */
+p {
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+/* Contact Info */
+.contact-info {
+  margin-top: 20px;
+}
+
+.contact-item {
+  margin-bottom: 10px;
+}
+
+.label {
+  font-weight: bold;
+  color: #ffffff;
+}
+
+/* Social Links */
+.social-links {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.social-links a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #e62429;
+  font-weight: bold;
+}
+
+.social-links a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+.footer {
+  margin-top: 40px;
+  text-align: center;
+  color: #ccc;
+  font-size: 14px;
+}
+
+body {
+  background-image: url('images/Avengers\ Background.jpeg'); /* adjust path as needed */
+  background-size: cover;        /* scales image to cover the whole page */
+  background-repeat: no-repeat;   /* prevents tiling */
+  background-position: center;    /* centers the image */
+  background-attachment: fixed;   /* makes background stay while scrolling */
+  color: #fff;                /* ensures text is readable */
+}
